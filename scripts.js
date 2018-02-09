@@ -1,10 +1,5 @@
-function drawTree(treeHeight) {		
-	for (var i = 1; i <= treeHeight ; i++) {
-		var star = ('');
-		for (var j = 1; j <= i; j++) {
-			star += '*';
-		}
-		console.log(star);
-	}
+var buttons = document.getElementsByClassName('button');
+for (i = 0; i < buttons.length; i++) {
+	alert(buttons[i].innerText);
+	console.log(buttons[i].innerText);
 }
-drawTree(9);
